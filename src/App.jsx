@@ -117,7 +117,7 @@ function App() {
           {message.map((message, i) =>
             <div key={i} className={message.isBot ? "chat bot" : "chat user"}>
               <div className='msg'>
-                <img className='chatimg' src={message.isBot ? chatgptlogo : userlogo} alt="" /><p className="txt">{message.text}</p>
+                <img className='chatimg' src={message.isBot ? chatgptlogo : userlogo} alt="" /><pre className="txt">{message.text}</pre>
               </div>
             </div>
           )}
