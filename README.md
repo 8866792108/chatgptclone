@@ -1,8 +1,56 @@
-# React + Vite
+# ChatGPT Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![ChatGPT UI](https://github.com/8866792108/Shifra-vs/blob/main/virtual.jpg)
 
-Currently, two official plugins are available:
+## 🌐 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Visit our live application at: [https://botgptclone.netlify.app/](https://botgptclone.netlify.app/)
+
+## 📝 Project Overview
+
+ChatGPT Clone is a lightweight and responsive web-based AI chatbot application inspired by OpenAI's ChatGPT. Built using modern front-end tools, it offers a clean interface for interacting with a simulated chatbot UI. This clone focuses on design and user interaction and can be extended to connect with real AI APIs like OpenAI.
+
+## ✨ Key Features
+
+- 💬 Interactive chatbot UI
+- ⚡ Fast development and load times using Vite
+- 🎨 Clean and modern design with responsive layout
+- 🔄 Smooth state and message handling
+- 🧠 Placeholder for AI API integration (e.g., OpenAI)
+
+## 🛠️ Technology Stack
+
+### Frontend
+- React 18
+- Vite
+- JavaScript (ES6+)
+- TailwindCSS (optional for styling)
+- CSS Modules or plain CSS
+
+> **Note**: Currently no backend or AI integration is included. The logic can be extended to support OpenAI or other AI APIs.
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/8866792108/chatgptclone.git
+
+# 2. Navigate to project folder
+cd chatgptclone
+
+# 3. Install dependencies
+npm install
+# or
+yarn install
+
+# 4. Run the development server
+npm run dev
+# or
+yarn dev
